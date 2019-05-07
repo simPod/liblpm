@@ -11,7 +11,7 @@ public class LPMTest {
 		for (int n = 0; n < 10; n++) {
 			basicTest();
 		}
-		System.out.println("ok");
+		System.out.println("LPM Basic Test passed");
 	}
 
 	private static void basicTest() throws Exception {
