@@ -81,4 +81,4 @@ collectgarbage()    -- lpm collected
 collectgarbage()    -- remaining tracers (i1, q1) should have been removed.
 assert(#gcl == 2)
 
-print("ok")
+print("lua ok")

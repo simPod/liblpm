@@ -25,4 +25,5 @@ matrix:
         - cd src && make tests
       script:
         - JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+        - cd ${TRAVIS_BUILD_DIR}/src && make tests
         - cd ${TRAVIS_BUILD_DIR}/src/jni && make test

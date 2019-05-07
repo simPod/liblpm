@@ -306,6 +306,6 @@ main(void)
 	ipv6_basic_test();
 	removal_test();
 	default_test();
-	puts("ok");
+	puts("c ok");
 	return 0;
 }
